@@ -1,1 +1,2 @@
-web: gunicorn crud_producto.wsgi
+web: gunicorn crud_producto.wsgi:application
+
